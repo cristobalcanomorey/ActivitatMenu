@@ -1,5 +1,5 @@
 #menu {
-  background:#bddeef;
+  background:#f7f7f7;
   border:1px solid #7C7C7C;
   list-style:none;
   margin:0;
@@ -26,21 +26,22 @@ body{
 }
 
 #menu li a {
-  background-color: #e7eff7;
+  background-color: #f7f7f7;
   color:#333;
   display:block;
   padding:.3em;
   text-decoration:none;
-  border: 1px solid transparent;
+  border: 2px solid #eaeaea;
+  border-bottom: none;
   margin-top: 28px;
-  clip-path: polygon(6% 0, 94% 0, 100% 14%, 100% 100%, 0 100%, 0 14%);
-  border-right: 2px solid #a1baa7;
+  border-radius: 6px 6px 0px 0px;
+  background-image: linear-gradient(#f7f7f7, #efefef);
 }
 
 #menu li a:hover{
-    background-color: #bce1ff;
+    background-image: linear-gradient(#f7f7f7, #efefff);
 }
 
 #menu li a:active{
-    background-color: #a1baa7;
+    background-image: linear-gradient(#f7f7f7, #bfffff);
 }
