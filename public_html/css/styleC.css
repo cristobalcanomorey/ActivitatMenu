@@ -1,5 +1,5 @@
 #menu {
-  background:#f7f7f7;
+  background:#eff7e7;
   border:1px solid #7C7C7C;
   list-style:none;
   margin:0;
@@ -28,22 +28,21 @@ body{
 }
 
 #menu li a {
-  background-color: #f7f7f7;
+  background-color: #b5de9c;
   color:#333;
   display:block;
   padding:.3em;
   text-decoration:none;
-  border: 2px solid #eaeaea;
-  border-bottom: none;
+  border: 1px solid transparent;
   margin-top: 28px;
-  border-radius: 6px 6px 0px 0px;
-  background-image: linear-gradient(#f7f7f7, #efefef);
+  clip-path: polygon(6% 0, 94% 0, 100% 14%, 100% 100%, 0 100%, 0 14%);
+  background-image: linear-gradient(#b5de9c, #b3d9a1);
 }
 
 #menu li a:hover{
-    background-image: linear-gradient(#f7f7f7, #efefff);
+    background-image: linear-gradient(#b5de9c, #ffffa1);
 }
 
 #menu li a:active{
-    background-image: linear-gradient(#f7f7f7, #bfffff);
+    background-image: linear-gradient(#b5de9c, #b3ffa1);
 }
