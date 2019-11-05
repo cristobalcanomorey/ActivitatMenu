@@ -1,5 +1,5 @@
 #menu {
-  background:#ffeff7;
+  background:black;
   border:1px solid #7C7C7C;
   list-style:none;
   margin:0;
@@ -8,20 +8,19 @@
   overflow: hidden;
   text-align: center;
   border:none;
-  border-bottom: 2px solid #f7c1df;
 }
 body{
     margin: 0;
     font-family: sans-serif;
     font-weight: bold;
     font-size: .9em;
+    
 }
 
 #menu li{
     float: left;
     width: 12.9%;
     margin-left: 0.5%;
-    
 }
 
 #menu #largo{
@@ -30,23 +29,20 @@ body{
 }
 
 #menu li a {
-  background-color: #fff7f7;
-  color: #d64682;
+  background-color: #940000;
+  color:#333;
   display:block;
   padding:.3em;
   text-decoration:none;
-  border: 1px solid #eaeaea;
-  border-right:2px solid #f7c1df;
-  border-bottom: none;
   margin-top: 28px;
-  border-radius: 6px 6px 0px 0px;
-  background-image: linear-gradient(#fff7f7 66%, #fdebf5);
+  background-image: linear-gradient(#940000, #b00000);
+  color: white;
 }
 
 #menu li a:hover{
-    background-image: linear-gradient(#fff7f7 66%, plum);
+    background-image: linear-gradient(#F35F5F, #b00000);
 }
 
 #menu li a:active{
-    background-image: linear-gradient(plum, #fff7f7);
+    text-decoration: underline;
 }

@@ -40,9 +40,9 @@ body{
 }
 
 #menu li a:hover{
-    background-image: linear-gradient(#b5de9c, #ffffa1);
+    background-image: linear-gradient(#b5de9c, #b3ffa1);
 }
 
 #menu li a:active{
-    background-image: linear-gradient(#b5de9c, #b3ffa1);
+    background-image: linear-gradient(#b5de9c, #ffffa1);
 }
